@@ -3,7 +3,7 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	BFD
+%define		pdir	BFD
 Summary:	BFD - Impromptu dumping of data structures for debugging purposes
 Summary(pl):	BFD - improwizowane zrzucanie struktur danych w celach diagnostycznych
 Name:		perl-BFD
