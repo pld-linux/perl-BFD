@@ -12,7 +12,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://search.cpan.org/CPAN/authors/id/R/RB/RBS/%{pdir}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-authors/id/R/RB/RBS/%{pdir}-%{version}.tar.gz
 # Source0-md5:	7715ecf4133b9ab1ddabf9221663d576
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
