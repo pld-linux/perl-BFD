@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	BFD
 Summary:	BFD - Impromptu dumping of data structures for debugging purposes
-Summary(pl):	BFD - improwizowane zrzucanie struktur danych w celach diagnostycznych
+Summary(pl.UTF-8):   BFD - improwizowane zrzucanie struktur danych w celach diagnostycznych
 Name:		perl-BFD
 Version:	0.31
 Release:	1
@@ -25,11 +25,11 @@ to take a peek at a nest Perl data structure by emitting (relatively)
 nicely formatted output with filename and line number prefixed to each
 line.
 
-%description -l pl
-Ten modu³ pozwala na improwizowane zrzucanie struktur danych na
-STDERR. Jest przydatny aby podejrzeæ zagnie¿d¿on± perlow± strukturê
-danych daj±c ³adnie sformatowane wyj¶cie z nazw± pliki i numerem linii
-przed ka¿d± lini±.
+%description -l pl.UTF-8
+Ten moduÅ‚ pozwala na improwizowane zrzucanie struktur danych na
+STDERR. Jest przydatny aby podejrzeÄ‡ zagnieÅ¼dÅ¼onÄ… perlowÄ… strukturÄ™
+danych dajÄ…c Å‚adnie sformatowane wyjÅ›cie z nazwÄ… pliki i numerem linii
+przed kaÅ¼dÄ… liniÄ….
 
 %prep
 %setup -q -n %{pdir}-%{version}
