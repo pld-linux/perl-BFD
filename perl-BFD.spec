@@ -8,7 +8,7 @@ Summary:	BFD - Impromptu dumping of data structures for debugging purposes
 Summary(pl.UTF-8):	BFD - improwizowane zrzucanie struktur danych w celach diagnostycznych
 Name:		perl-BFD
 Version:	0.31
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
