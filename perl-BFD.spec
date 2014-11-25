@@ -1,9 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	BFD
+%include	/usr/lib/rpm/macros.perl
 Summary:	BFD - Impromptu dumping of data structures for debugging purposes
 Summary(pl.UTF-8):	BFD - improwizowane zrzucanie struktur danych w celach diagnostycznych
 Name:		perl-BFD
@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/R/RB/RBS/%{pdir}-%{version}.tar.gz
 # Source0-md5:	7715ecf4133b9ab1ddabf9221663d576
+URL:		http://search.cpan.org/dist/BFD/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
